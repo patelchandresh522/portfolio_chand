@@ -14,3 +14,60 @@ body{
 div#navbarText {
     padding-left: 1100px;
 }
+
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: black !important;
+
+}
+
+#about{
+    margin: 60px auto ;
+    max-width: 400px;
+    text-align : center;
+}
+
+#about img{
+    border-radius:50% ;
+    width : 120px;
+    margin-bottom: 10px;
+}
+
+#about .name {
+    font-size: 20px;
+}
+
+#about .vocation {
+    font-size: 17px;
+    color:blueviolet;
+    margin-bottom: 10px;
+}
+
+#about .skills{
+    font-size: 14px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a {
+    color:black
+}
