@@ -1,5 +1,5 @@
 body{
-    font-family: monospace, sans-serif;
+    font-family: "monospace", sans-serif;
 }
 
 .font-primary{
@@ -23,6 +23,8 @@ h2{
     font-weight: bold;
     font-size: 23px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 a.font-black{
@@ -48,13 +50,13 @@ a.font-black{
 
 #about .vocation {
     font-size: 17px;
-    color:blueviolet;
+    color:#ababab;
     margin-bottom: 10px;
 }
 
 #about .skills{
     font-size: 14px;
-    color: aqua;
+    color: #00abae;
     margin-bottom: 10px;
 }
 
@@ -69,5 +71,31 @@ a.font-black{
 }
 
 #about .icons a {
-    color:black
+    color:black;
+}
+
+#project {
+    margin:60px auto;
+    width: 80%;
+}
+project h2 {
+    text-align: center;
+}
+#project .card img {
+    width: 100%;
+    border-radius: 3%;
+
+}
+
+#project .card-title {
+    font-weight: bold;
+}
+
+a.btn {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+a.navbar-brand.title-icon {
+    color: black;
 }
